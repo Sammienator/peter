@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap');
+
+body{
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+a{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+section{
+ padding-top: 80px;
+ padding: 80px;   
+}
+#hero{
+    background-image: url("../images/pic2.jpg");
+    opacity: 0.8;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    padding: 14px 32px;
+    font-size: 14px;
+    letter-spacing: 1px;
+
+}
+.btn-primary{
+    background-color: #3a8878;
+    border-color: #bad8d2;
+    border-radius: 100px;
+}
+.btn-primary:hover{
+    background-color: transparent;
+    border-color: #3a8878;
+}
