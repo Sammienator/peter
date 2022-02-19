@@ -42,3 +42,19 @@ section{
     background-color: transparent;
     border-color: #3a8878;
 }
+.navbar-dark .navbar-nav .nav-link{
+    color: #3a8878;
+
+}.navbar-dark .navbar-nav .nav-link.active{
+    color: #fff;
+}
+
+.intro .divider{
+    background-color: #3a8878;
+    height: 7px;
+    width: 150px;
+    margin: 18px auto;
+
+}.intro{
+    margin-bottom: 50px;
+}
